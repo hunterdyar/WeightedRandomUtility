@@ -48,13 +48,13 @@ namespace HDyar.WeightedRandomUtility
 				return default;
 			}
 
-			float total = Items.Sum(x => x.weight);
+			float total = Items.Sum(x => x.Weight);
 			float random = UnityEngine.Random.Range(0, total);
 
 			float running = 0;
 			for (int i = 0; i < Items.Count; i++)
 			{
-				running += Items[i].weight;
+				running += Items[i].Weight;
 				if (random <= running)
 				{
 					return Items[i].item;
