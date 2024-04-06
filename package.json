@@ -1,0 +1,22 @@
+{
+  "name": "com.hdyar.weightedrandomutility",
+  "version": "0.9.1",
+  "displayName": "Weighted Random Utility",
+  "description": "Get a random item from a list with random weights.",
+  "unity": "2021.3",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "license": "MIT",
+  "licensesUrl": "https://mit-license.org/",
+  "resolutionStrategy": "highest",
+  "dependencies": {
+  },
+  "keywords": [
+
+  ],
+  "author": {
+    "name": "Hugh Dyar",
+    "email": "me@hdyar.com",
+    "url": "https://www.hdyar.com"
+  }
+}
